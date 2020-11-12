@@ -5,9 +5,15 @@ using namespace std;
 extern int funcOutside();
 
 int i = 5;
-int main() {
+int subfunc() {
     int i = funcOutside();
     cout << "return value : " << i << endl;
+    
+    return 0;
+}
+
+int main() {
+    int i = subfunc();
     cout << "Scope resolution operator : " << ::i << endl;
     return 0;
 }
