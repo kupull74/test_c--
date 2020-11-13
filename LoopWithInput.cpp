@@ -14,10 +14,11 @@ int SubLoop()
     {
         cout << " Loop : " << length << endl;
     }
-    return 0;
+    return length;
 }
 int main()
 {
     int a = SubLoop();
+    cout << " Loop : " << a << endl;
     cout << "Total Loop is over ";
 }

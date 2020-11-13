@@ -4,5 +4,5 @@ using namespace std;
 
 int funcOutside() {
     cout << "int funcOutside()" << endl;
-    return 0;
+    return 1;
 } 
