@@ -29,7 +29,7 @@ int Multi(int number, int number1)
     return number * number1;
 }
 
-int Divis(int number, int number1)
+float Divis(float number, float number1)
 {
 
     return number / number1;
