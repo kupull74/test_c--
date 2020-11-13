@@ -1,5 +1,6 @@
 #include <iostream>
-#include "NameSpacesUsingOthers.cpp"
+//#include "NameSpacesUsingOthers.cpp"
+#include "NameSpacesUsingOthers.hpp"
 using namespace std;
 
 
