@@ -31,7 +31,7 @@ int main()
     for (int i = MAX - 1; i >= 0; i--)
     {
         ptr_second = &var[i];
-        cout << "...[" << i << "] = " << *ptr_first << ", addr : " << ptr_first << endl;
+         cout << "...[" << i << "] = " << *ptr_second << ", addr : " << ptr_second << endl;
         // *ptr_first 와 ptr_first 일 때에는 다른값 82896128, addr : 0x7fffffffdc38
     }
     return 0;
