@@ -11,7 +11,7 @@ int main()
   //WINDOW *w;
   int i, j, m, n;
   int rows, cols, rows1, cols1;
-  //WINDOW * win = newwin(rows1, cols1, n, m);
+  WINDOW * win = newwin(rows1, cols1, n, m);
   initscr();
   curs_set(1); // 커서 보이게 하는 옵션..?
   using namespace std;
